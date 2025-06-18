@@ -26,5 +26,6 @@ func main() {
 	ftEmployee.age = 2
 	ftEmployee.id = 5
 	fmt.Printf("%v\n", ftEmployee)
-	//GetMessage(ftEmployee)
+	//GetMessage(ftEmployee) //-> cannot use ftEmployee (type FullTimeEmployee) as type Person in argument to GetMessage: FullTimeEmployee does not implement Person (missing method name)
+	GetMessage(ftEmployee.Person) //-> works because we pass the Person part of FullTimeEmployee
 }
