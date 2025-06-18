@@ -24,8 +24,7 @@ go get github.com/username/module
 //examples:
 go get github.com/donvito/hellomod
 go get github.com/donvito/hellomod/v2
-go get github.com/lmarcela/go-
-test-hello --> Used in 16-mymodule dir
+go get github.com/lmarcela/go-test-hello --> Used in 16-mymodule dir
 ```
 
 If the module uses semantic import versioning (v2 or higher), you must include the version suffix in the path (/v2, /v3, etc.).
