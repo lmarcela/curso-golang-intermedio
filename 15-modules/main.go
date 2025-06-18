@@ -7,5 +7,5 @@ import (
 
 func main() {
 	hellomod.SayHello()
-	hellomod2.SayHello("Platzi")
+	hellomod2.SayHello("Marce ")
 }
