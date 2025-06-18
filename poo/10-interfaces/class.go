@@ -48,5 +48,4 @@ func main() {
 	tEmployee := TemporaryEmployee{}
 	getMessage(tEmployee)
 	getMessage(ftEmployee)
-	//GetMessage(ftEmployee)
 }
