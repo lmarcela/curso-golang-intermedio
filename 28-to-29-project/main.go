@@ -139,6 +139,7 @@ func main() {
 
 	dispatcher.Run()
 	// http://localhost:8081/fib
+	// curl -d "name=Fib25&value=25&delay=3s" -H "Content-Type: application/x-www-form-urlencoded" -X POST http://localhost:8081/fib
 	http.HandleFunc("/fib", func(w http.ResponseWriter, r *http.Request) {
 		RequestHandler(w, r, jobQueue)
 	})
