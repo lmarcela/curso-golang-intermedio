@@ -18,6 +18,7 @@ func main() {
 	close(jobs)
 
 	for r := 0; r < len(tasks); r++ {
+		// fmt.Println("Result:", <-results)
 		<-results
 	}
 }

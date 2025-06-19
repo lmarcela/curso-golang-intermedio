@@ -22,5 +22,5 @@ func doSomething(i int, wg *sync.WaitGroup) {
 	defer wg.Done()
 	fmt.Printf("Started %d\n", i)
 	time.Sleep(2 * time.Second)
-	fmt.Println("End")
+	fmt.Printf("End%d\n", i)
 }

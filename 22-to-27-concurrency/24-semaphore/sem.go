@@ -11,9 +11,9 @@ import (
 // c:= [goRoutine3][goRoutine2]
 
 func main() {
-	c := make(chan int, 5)
+	c := make(chan int, 5) // Buffered channel with a capacity of 5
 	var wg sync.WaitGroup
-	for i := 0; i < 100000000000; i++ {
+	for i := 0; i < 15; i++ {
 		c <- 1
 		wg.Add(1)
 		go doSomething(i, &wg, c)

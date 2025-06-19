@@ -14,6 +14,11 @@ func main() {
 	go DoSomething(d1, c1, 1)
 	go DoSomething(d2, c2, 2)
 
+	// Secuentially reading from channels
+	// fmt.Println(<-c1)  // 1. It takes 4 seconds
+	// fmt.Println(<-c2)	// 2. It takes 2 seconds
+
+	// Multiplexing with select
 	for i := 0; i < 2; i++ {
 		select {
 		case channelMsg1 := <-c1:
