@@ -1,0 +1,8 @@
+mode: set
+github.com/lmarcela/mock-testing/main.go:21.55,25.2 2 0
+github.com/lmarcela/mock-testing/main.go:27.54,30.2 2 0
+github.com/lmarcela/mock-testing/main.go:32.76,36.16 3 1
+github.com/lmarcela/mock-testing/main.go:36.16,38.3 1 0
+github.com/lmarcela/mock-testing/main.go:40.2,42.16 3 1
+github.com/lmarcela/mock-testing/main.go:42.16,44.3 1 0
+github.com/lmarcela/mock-testing/main.go:45.2,47.24 2 1

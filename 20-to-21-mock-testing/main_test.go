@@ -30,7 +30,7 @@ func TestGetFullTimeEmployeeById(t *testing.T) {
 			},
 			expectedEmployee: FullTimeEmployee{
 				Person: Person{
-					Age:  35,
+					Age:  25,
 					DNI:  "1",
 					Name: "John Doe",
 				},

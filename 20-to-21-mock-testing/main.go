@@ -20,7 +20,7 @@ type FullTimeEmployee struct {
 
 var GetPersonByDNI = func(dni string) (Person, error) {
 	time.Sleep(5 * time.Second)
-	// SELECT * FROM Persona Where ...
+	// SELECT * FROM person Where ...
 	return Person{}, nil
 }
 
